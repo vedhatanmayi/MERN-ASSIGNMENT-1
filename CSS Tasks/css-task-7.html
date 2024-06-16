@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>CSS TASKS</title>
+    <style>
+        fieldset {
+            width:80px;
+            padding: 0px 30px 30px 30px;
+            border-radius: 20px;
+            margin: auto;
+            font-family: 'Julee', cursive;
+            font-family: 'Kaushan Select', cursive;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        legend {
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 40px;
+            padding: 2px 10px;
+            background-color: white;
+        }
+
+        .form {
+            height: 500px;
+            padding: 30px;
+            border: 2px solid black;
+            border-radius: 30px;
+            background-color: rgb(116, 32, 63);
+        }
+
+        table {
+            height: 450px;
+            text-align: left;
+            background-color: rgb(89, 10, 39);
+            color: white;
+            padding: 20px;
+        }
+
+        a{
+            border: 1px solid black;
+            background-color: aliceblue;
+            padding: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        a:hover{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-decoration: none;
+        }
+        .btn{
+            border: #ffff;
+            width: 100%;
+            padding: 10px 18px;
+            background-color: #ffff;
+            font-weight: 700;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>CSS</legend>
+        <h2>TASK-7</h2>
+        <h2 align="center">Registration Form:</h2>
+        <div class="form">
+            <form>
+                <table align="center">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Phn number">Phone Number:</label></td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio">Male
+                            <input type="radio">Female
+                            <input type="radio">Otder
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <label for="Language">Language</label>
+                        </td>
+                        <td>
+                            <select name="Language">
+                                <option value="Select Language">Select Language</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="English">English</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Spanish">Spanish</option>
+                                <option value="japanese">japanese</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ZC">Zip code:</label>
+                        </td>
+                        <td>
+                            <input type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="About">About</label>
+                        </td>
+                        <td>
+                            <textarea name="About" id="" cols="30" rows="2"
+                                placeholder="Write about yourself"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="btn" type="submit"> Register</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <br>
+        <a href="../index.html" class="home">Home</a>
+    </fieldset>
+</body>
+
+</html>
